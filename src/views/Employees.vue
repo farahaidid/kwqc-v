@@ -418,7 +418,7 @@
 // eslint-disable-next-line no-unused-vars
 import Firebase from 'firebase'
 // eslint-disable-next-line no-unused-vars
-import db from '../db.js'
+import {db} from '@/db'
 
 export default {
   name: 'employees'

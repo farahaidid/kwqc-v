@@ -6,6 +6,7 @@
       :user='user'
       :error='error'
       @logout='logout'
+      @addEmployee="addEmployee"
     />
   </div>
 </template>
@@ -13,7 +14,7 @@
 <script>
 import Navigation from '@/components/Navigation.vue'
 import Firebase from 'firebase'
-import db from './db.js'
+import {db} from '@/db'
 
 export default {
   name: 'App',
